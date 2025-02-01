@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hey Baibe!!</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Slide 1: Password Gate -->
+  <div id="slide1" class="slide">
+    <h1>Welcome stranger</h1>
+    <p>Enter the password to continue:</p>
+    <input type="password" id="passwordInput" placeholder="Type the password">
+    <button type="button" onclick="checkPassword()">Submit</button>
+    <p id="errorMessage" class="hidden">Incorrect password. Try again!</p>
+  </div>
+
+  <!-- Slide 2: Valentine Question -->
+  <div id="slide2" class="slide hidden">
+    <img src="images/slide2-image.png" alt="Our Photo" class="slide-image">
+    <h1>Hey Baiiiibyy❤️</h1>
+    <h2>Will You Be My Val?</h2>
+    <button type="button" onclick="showSlide3()">Yes!</button>
+    <button type="button" onclick="alert('Well, I want a yes!! 😹')">No</button>
+  </div>
+
+  <!-- Slide 3: Final Message -->
+  <div id="slide3" class="slide hidden">
+    <h1>Yippie</h1>
+    <p>The firsts they say should be a memorable one, let's have a great time!🥂 ❤️</p>
+    <img src="images/slide3-image.jpg" alt="Romantic Image" class="slide-image">
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
